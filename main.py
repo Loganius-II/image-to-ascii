@@ -11,6 +11,7 @@ OUTPUT = 1
 
 #Create GUI later...
 root = tk.Tk()
+root.title("Image to ASCII converter")
 
 def open_file() -> None:
 	global file_path, img
